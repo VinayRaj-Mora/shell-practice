@@ -1,4 +1,6 @@
 #!/bin/bash
 
-DATE=$(date +%Y-%m-%d)
-echo "Today's date is: $DATE"
+start_time=$(date +%s)
+sleep 10 &
+end_time=$(date +%s)
+echo "script executed in $(($end_time - $start_time)) seconds"
