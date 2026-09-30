@@ -6,6 +6,6 @@ sleep 10 &
 
 end_time=$(date +%s)
 
-Total_time=$($(end_time - start_time))
+Total_time=$(($end_time-$start_time))
 
 echo "Total time taken: $Total_time seconds"
