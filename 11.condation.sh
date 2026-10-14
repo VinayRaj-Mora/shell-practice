@@ -2,4 +2,4 @@
 
 NUMBER=$2
 
-echo "number is: $NUMBER"
+echo "number is: ${NUMBER}"
