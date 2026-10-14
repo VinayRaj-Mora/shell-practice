@@ -1,4 +1,4 @@
 #!/bin/bash
 
 NUMBER=$2
-echo $NUMBER
+echo number is: $UMBER
