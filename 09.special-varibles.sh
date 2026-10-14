@@ -7,3 +7,5 @@ echo "Current working directory: $PWD"
 echo "Who is working this: $USER"
 echo "Current proccess ID: $$"
 echo "Home directory of the user: $HOME"
+sleep 50 &
+echo "PID of the last background process: $!"
