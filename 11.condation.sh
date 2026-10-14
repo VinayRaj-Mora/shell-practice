@@ -1,5 +1,5 @@
 #!/bin/bash
 
-NUMBER=$10
+NUMBER=$2
 
 echo "number is: $NUMBER"
