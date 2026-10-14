@@ -9,3 +9,4 @@ echo "The sum of $Number1 and $Number2 is: $SUM"
 LEADERS=("vinay" "vinni" "vicky")
 
 echo "All Leaders: ${LEADERS[@]}"
+echo "First leader: ${LEADERS[0]}"
