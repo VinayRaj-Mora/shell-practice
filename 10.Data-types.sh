@@ -8,5 +8,4 @@ echo "The sum of $Number1 and $Number2 is: $SUM"
 
 LEADERS=("vinay" "vinni" "vicky")
 
-All-leaders=${LEADERS[@]}
-echo "ALL Leaders: $ALL-leaders"
+echo "All Leaders: ${LEADERS[@]}"
