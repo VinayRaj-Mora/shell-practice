@@ -7,7 +7,7 @@ if [ $USERID -ne 0 ]; then
     exit 1 #other than 0 means error
 fi
 
-dnf install my sql -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]; then
     echo "Error: Mysql installation failed."
